@@ -13,9 +13,9 @@ A function’s prototype is the object **instance** that will become the prototy
 An object’s prototype is the object **instance** from which the object is inherited.
 
 ## Prototype
--A prototype, whether it is a function's prototype or an object's prototype, is an instance of an object in memory.
--So when a function is created a new prototype object is created in memory and attached to the function behind the scenes.
--If that function is then used as a constructor function with the **new** keyword, the new object that is created has a ```__proto__``` property
+- A prototype, whether it is a function's prototype or an object's prototype, is an instance of an object in memory.
+- So when a function is created a new prototype object is created in memory and attached to the function behind the scenes.
+- If that function is then used as a constructor function with the **new** keyword, the new object that is created has a ```__proto__``` property
 that is pointing to the same object in memory that is the function's prototype.
 ```javascript
 function Person(firstName, lastName) {
