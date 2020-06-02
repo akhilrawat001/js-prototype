@@ -46,7 +46,7 @@ display([1, 2] == "1,2");
 - +0 equals -0
 
 # Object.is()
-- type sage
+- type safe
 - Verbose
 - Nan equals NaN
 - +0 does not equal -0
